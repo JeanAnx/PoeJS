@@ -2,6 +2,10 @@
     transition: all 0.4s ease;
 }
 
+h1 {
+    text-align: center;
+}
+
 #bandeauImages {
     width: 1000px;
     margin-left: auto;
@@ -18,7 +22,7 @@
     height: 200px;
     margin: 0 10px;
     opacity: 0.5;
-};
+}
 
 .beatles:hover {
     transform: scale(1.5);

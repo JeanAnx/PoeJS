@@ -14,7 +14,7 @@ for (let i of theBeatles) {
     i.addEventListener('mouseover',function(e) {
 
         console.log("hover");
-        this.style.height = "250px";
+        this.style.height = "230px";
         this.style.opacity = "1";
 
     });
