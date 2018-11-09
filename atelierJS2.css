@@ -1,0 +1,30 @@
+* {
+    transition: all 0.4s ease;
+}
+
+#bandeauImages {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#bandeauImages img , #currentImage img {
+    display: block;
+    height: 200px;
+    margin: 0 10px;
+    opacity: 0.5;
+};
+
+.beatles:hover {
+    transform: scale(1.5);
+}
+
+#currentImage {
+    display: block;
+    margin: 0 auto;
+}
