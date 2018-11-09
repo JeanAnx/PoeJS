@@ -1,0 +1,25 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid rgba(177, 177, 177 , 0.5);
+    text-align: left;
+    border-radius: 5px;
+}
+
+#leBouton {
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+form > label {
+    display: inline-block;
+    width: 100px;
+    padding: 10px 5px;
+}
